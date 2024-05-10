@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InvestorFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewinvestor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/I1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rj"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/I1_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rakesh_jhunjhunwala_N"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_below="@id/I1"/>
+
+                <TextView
+                    android:id="@+id/I1_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rakesh_jhunjhunwala_C"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_below="@id/I1_N"/>
+
+                <TextView
+                    android:id="@+id/I1_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rakesh_jhunjhunwala_B"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/I1_C"
+                    tools:ignore="VisualLintLongText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/I2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rd"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/I2_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Radhakishan_Damani_N"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_below="@id/I2"/>
+
+                <TextView
+                    android:id="@+id/I2_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Radhakishan_Damani_C"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_below="@id/I2_N"/>
+
+                <TextView
+                    android:id="@+id/I2_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Radhakishan_Damani_B"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/I2_C"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/I3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vk"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/I3_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Vijay_Kedia_N"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_below="@id/I3"/>
+
+                <TextView
+                    android:id="@+id/I3_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Vijay_Kedia_C"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_below="@id/I3_N"/>
+
+                <TextView
+                    android:id="@+id/I3_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Vijay_Kedia_B"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/I3_C"
+                    tools:ignore="VisualLintLongText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/I4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rdd"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/I4_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ramesh_Damani_N"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_below="@id/I4"/>
+
+                <TextView
+                    android:id="@+id/I4_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ramesh_Damani_C"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_below="@id/I4_N"/>
+
+                <TextView
+                    android:id="@+id/I4_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ramesh_Damani_B"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/I4_C"
+                    tools:ignore="VisualLintLongText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/I5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pv"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/I5_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Porinju_Veliyath_N"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_below="@id/I5"/>
+
+                <TextView
+                    android:id="@+id/I5_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Porinju_Veliyath_C"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_below="@id/I5_N"/>
+
+                <TextView
+                    android:id="@+id/I5_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Porinju_Veliyath_B"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/I5_C"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/I6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ra"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/I6_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Raamdeo_Agrawal_N"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_below="@id/I6"/>
+
+                <TextView
+                    android:id="@+id/I6_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Raamdeo_Agrawal_C"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_below="@id/I6_N"/>
+
+                <TextView
+                    android:id="@+id/I6_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Raamdeo_Agrawal_B"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/I6_C"
+                    tools:ignore="VisualLintLongText" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

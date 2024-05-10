@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MentorFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewmentor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/P1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/P1_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shikha Aeron"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_toEndOf="@id/P1"/>
+
+                <TextView
+                    android:id="@+id/P1_E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shikha@gmail.com"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P1"
+                    android:layout_below="@id/P1_N"/>
+
+                <TextView
+                    android:id="@+id/P1_O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 89562 65151"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P1"
+                    android:layout_below="@id/P1_E"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/P2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/P2_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ahmad Jamal"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_toEndOf="@id/P2"/>
+
+                <TextView
+                    android:id="@+id/P2_E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ahmad@gmail.com"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P2"
+                    android:layout_below="@id/P2_N"/>
+
+                <TextView
+                    android:id="@+id/P2_O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 96131 11231"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P2"
+                    android:layout_below="@id/P2_E"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/P3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/P3_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sanoj Mandal"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_toEndOf="@id/P3"/>
+
+                <TextView
+                    android:id="@+id/P3_E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sanoj@gmail.com"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P3"
+                    android:layout_below="@id/P3_N"/>
+
+                <TextView
+                    android:id="@+id/P3_O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 82466 45641"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P3"
+                    android:layout_below="@id/P3_E"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/P4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/P4_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shivali Pundir"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_toEndOf="@id/P4"/>
+
+                <TextView
+                    android:id="@+id/P4_E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shivali@gmail.com"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P4"
+                    android:layout_below="@id/P4_N"/>
+
+                <TextView
+                    android:id="@+id/P4_O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 98652 45123"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P4"
+                    android:layout_below="@id/P4_E"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/P5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/P5_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaibhavi Painuly"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_toEndOf="@id/P5"/>
+
+                <TextView
+                    android:id="@+id/P5_E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vaibhavi@gmail.com"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P5"
+                    android:layout_below="@id/P5_N"/>
+
+                <TextView
+                    android:id="@+id/P5_O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 89741 85232"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P5"
+                    android:layout_below="@id/P5_E"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/P6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/P6_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rimpi Upadhyay"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_toEndOf="@id/P6"/>
+
+                <TextView
+                    android:id="@+id/P6_E"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rimpi@gmail.com"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P6"
+                    android:layout_below="@id/P6_N"/>
+
+                <TextView
+                    android:id="@+id/P6_O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 92751 36715"
+                    android:layout_margin="7dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/P6"
+                    android:layout_below="@id/P6_E"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
